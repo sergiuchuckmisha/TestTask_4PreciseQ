@@ -11,8 +11,14 @@ any extensions to task are welcome
 
 
 
+requirements:
+ - Java (6-8)
+ - maven
+ - firefox driver
 
 how to run:
+mvn clean test -Dtest=SinoptikUaGetPressuresTest
+
 it appeared that test does not work for HtmlUnit driver.
 So, use of FireFox is a must.
 
