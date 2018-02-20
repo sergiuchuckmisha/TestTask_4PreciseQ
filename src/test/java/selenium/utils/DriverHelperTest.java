@@ -29,6 +29,7 @@ public class DriverHelperTest {
 	{
 		DriverHelper.navigateToCertainUrl("http://google.com");
 		DriverHelper.waitUntilPageIsLoaded();
+		System.out.println(DriverHelper.getTitle());
 		org.junit.Assert.assertTrue(DriverHelper.isElementPresent(By.name("q")));
 	}
 }

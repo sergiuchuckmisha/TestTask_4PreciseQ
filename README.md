@@ -8,3 +8,16 @@ open &#39;Воскресенье&#39; tab
 check that &#39;Воскресенье&#39; tab is opened
 check that &#39;Давление, мм&#39; row contains values in range [600,700]
 any extensions to task are welcome
+
+
+
+
+how to run:
+it appeared that test does not work for HtmlUnit driver.
+So, use of FireFox is a must.
+
+ You can find it in this link:
+https://drive.google.com/file/d/163zyyqAQ-OvYjQgP61IIAOyWMLOWdOVE/view?usp=sharing
+for FireFox
+ and this archive should be unpacked to folder "C:/dev/programs"
+ or you can change path in Config class

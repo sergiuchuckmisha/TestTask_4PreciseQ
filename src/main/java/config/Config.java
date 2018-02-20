@@ -23,8 +23,8 @@ public class Config {
 	static {
 
 		FIREBUG_VER = "1.10.4";
-//		FIREFOX_PATH = "C:\\dev\\programs\\firefox\\firefox.exe";
-		FIREFOX_PATH = "D:\\dev\\programs\\firefox\\firefox.exe";
+		FIREFOX_PATH = "C:\\dev\\programs\\firefox\\firefox.exe";
+//		FIREFOX_PATH = "D:\\dev\\programs\\firefox\\firefox.exe";
 //		DRIVER_CHROME_PATH = new File("C:\\dev\\drivers\\chromedriver.exe");
 		DRIVER_CHROME_PATH = new File("D:\\dev\\programs\\drivers\\chromedriver.exe");
 		CHROME_BROWSER_PATH = null; //"C:\\dev\\programs\\Google\\Chrome\\Application\\chrome.exe";

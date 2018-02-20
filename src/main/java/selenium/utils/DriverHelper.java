@@ -35,6 +35,11 @@ public class DriverHelper {
 		return findElement(locator).getText();
 	}
 
+	public static String getTitle() {
+		waitUntilPageIsLoaded();
+		return WebDriverFactory.getDriver().getTitle();
+	}
+
 	public static boolean isElementPresent(By locator)
 	{
 		waitUntilPageIsLoaded();
